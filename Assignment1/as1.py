@@ -8,7 +8,7 @@ def combination(tuple):
             nodup_list.append([i])
     result = comb_div(nodup_list)
     for i in result:
-        print(i,end=" ")
+        print(i, end = " ")
 
 def comb_div(list):
     """
@@ -32,3 +32,7 @@ def comb_cal(left, right):
             new_list.append(i+j)       
     return new_list
 
+# if __name__ == "__main__":
+#     list = {1,1,2,2,3,4,5,4}
+#     combination(list)
+#     ## test
